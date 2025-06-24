@@ -173,26 +173,3 @@ Your implementation should not make use of any global variables or functions. Al
 
 In your `REPORT.md` file, please indicate which of the listed platforms you have tested your app on. We will test your application by building and running it in one of your selected platforms, and manually verifying that it meets the requirements outlined above.
 
-## 5. Grading
-
-This machine problem is worth 50 points, broken down as follows:
-
-- 2 points: A completed `REPORT.md` file with the required information. **Without this we will not evaluate your submission!**
-
-- 8 points: The dice rolling mechanism works correctly, including the ability to hold and unhold dice, and the ability to roll up to (but no more than) three times per turn
-
-- 8 points: The scorecard works correctly, including the ability to register a score for a given category just once
-
-- 4 points: Scores are correctly calculated for all categories, and the total score is correctly updated
-
-- 4 points: The game correctly ends when all categories have been used, and the final score is correctly displayed
-
-- 4 points: The game state is correctly reset when the user dismisses the final score
-
-- 4 points: Your code structure separates layout from data, involving the use of data model classes and avoiding hardcoding game logic/data into widget implementations
-
-- 8 points: Your code is well-structured, easy to read, and does a good job modularizing the UI into separate widgets (at a minimum, as suggested in the "Code structure" section above)
-
-- 8 points: Your implementation makes effective use of stateful widgets and state management techniques to manage the state of the UI
-
-**If your code does not build, you will receive a zero for the machine problem.**
